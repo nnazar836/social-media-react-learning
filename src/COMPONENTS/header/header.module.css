@@ -1,0 +1,19 @@
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template:1fr / 1fr ;
+    align-items: center;
+    justify-items: center;
+    background-color: cornflowerblue;
+}
+
+/* .header__logoContainer{
+} */
+
+.header__link{
+    font-size: 25px;
+    color: #000;
+    font-family: fantasy;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

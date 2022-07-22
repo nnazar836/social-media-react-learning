@@ -1,0 +1,26 @@
+.UserCard {
+    display: flex;
+    align-items: center;
+}
+
+
+/* foto */
+.UserCard__foto {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden ;
+}
+
+.UserCard__foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* name */
+
+.UserCard__name{
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.main {
+    position: relative;
+    grid-area: main;
+    height: 100%;
+    overflow: auto;
+}
+
+.contentContainer {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+
+}
+
+@media (max-width:768px) {
+    .contentContainer {
+        width: 100%;
+
+        overflow: hidden;
+        height: 100%;
+    }
+}

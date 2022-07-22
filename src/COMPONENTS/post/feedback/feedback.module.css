@@ -1,0 +1,25 @@
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.feedback__likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback__likeCounter{
+    margin-left: 5px;
+}
+
+.feedback__heart{
+    cursor: pointer;
+    color: black;
+}
+.feedback__heartIsLiked{
+    cursor: pointer;
+    color: red;
+}

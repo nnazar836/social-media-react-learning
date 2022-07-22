@@ -1,0 +1,69 @@
+.ProfileCard {
+    display: grid;
+    grid-template: .3fr 1fr / .3fr 1fr;
+    grid-template-areas:
+        "foto name"
+        "foto bio";
+    gap: 5px;
+}
+
+@media (max-width:768px) {
+    .ProfileCard {
+        grid-template: 1fr .4fr auto /1fr;
+        grid-template-areas:
+            "foto foto"
+            "name name"
+            "bio bio";
+    }
+}
+
+
+/* Foto */
+.ProfileCard__fotoContainer {
+    grid-area: foto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid #000; */
+}
+
+.ProfileCard__foto {
+    /* border: 1px solid #000; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ProfileCard__foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* name */
+.ProfileCard__nameContainer {
+    grid-area: name;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/* bio */
+.ProfileCard__bioContainer {
+    grid-area: bio;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+@media (max-width:768px) {
+    .ProfileCard__nameContainer, .ProfileCard__bioContainer{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+}
+

@@ -1,0 +1,36 @@
+.messageBlock {
+    display: grid;
+    grid-template: 1fr / 0.5fr 1fr;
+}
+
+.dialogs {
+    border: 1px solid #000;
+}
+
+.dialogs__list {
+    background-color: red;
+}
+
+.dialogs__listItem {
+    border: 1px solid #000;
+}
+
+.messagees {
+    border: 1px solid #000;
+}
+
+.message__form {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.message__textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin: 10px auto;
+    padding: 5px;
+}
